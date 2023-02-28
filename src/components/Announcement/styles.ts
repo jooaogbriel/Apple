@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        width: 100vw;
+    width: 100vw;
 
     h1 {
         font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
