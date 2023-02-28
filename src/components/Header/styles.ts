@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     ul {
-        position: fixed;
         z-index: 1;
         inset: 9999;
         display: flex;
