@@ -15,12 +15,19 @@ import cardTen from '../../ImagesContainerOne/cardTen.png'
 export const News = () => {
     return (
         <Container>
-            <h1>As novidades. Veja o que acabou de chegar.</h1>
+            
+            <div className="textNews">
+                <h2><span>As novidades. </span>Veja o que acabou de chegar.</h2>
+            </div>
+          
+            <div className="cards">
             <div className="Scrolbar">
-                <label>É SÓ ATÉ 13/03</label>
-                <h1>Última chance de os AirPods entrarem na turma.</h1>
-                <p>Economize em um Mac ou iPad com o desconto para educação**. É só até 13/03***.</p>
-                <img src={cardOne} alt="" />
+                <div className="cards-info">
+                    <label>É SÓ ATÉ 13/03</label>
+                    <h1>Última chance de os AirPods entrarem na turma.</h1>
+                    <figcaption>Economize em um Mac ou iPad com o desconto para educação**. É só até 13/03***.</figcaption>
+                    <img src={cardOne} alt="" />
+                </div>
             </div>
 
             <div className="Scrolbar">
@@ -86,6 +93,8 @@ export const News = () => {
                 <p>A partir de R$ 10.299</p>
                 <img src={cardTen} alt="" />
             </div>
+            </div>
+           
         </Container>
     )
 }

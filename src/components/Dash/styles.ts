@@ -18,13 +18,10 @@ export const Container = styled.div`
     .aside{
         display: flex;
         flex-direction: column;
-        
     }
     .main{
         display: flex;
         align-items: center;
-
-        
     }
     .textDashboard{
         font-size: 48px;
@@ -40,7 +37,6 @@ export const Container = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        
     }
     .asideOne-Image{
         width: 30px;
@@ -57,7 +53,6 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         padding-bottom: 12px;
-       
     }
     span{
         color: black;
