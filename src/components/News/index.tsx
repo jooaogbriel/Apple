@@ -17,7 +17,7 @@ export const News = () => {
         <Container>
             
             <div className="textNews">
-                <h2><span>As novidadese. </span>Veja o que acabou de chegar.</h2>
+                <h2><span>As novidades. </span>Veja o que acabou de chegar.</h2>
             </div>
           
             <div className="cards">
