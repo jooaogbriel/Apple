@@ -40,7 +40,7 @@ export const News = () => {
             <div className="Scrolbar">
                 <label>IPHONE 14</label>
                 <h1>Grande e grandão</h1>
-                <p>A partir de R$ 7.599</p>
+                <p>A partir de R$ 7.5999</p>
                 <img src={cardThree} alt="" />
             </div>
 
